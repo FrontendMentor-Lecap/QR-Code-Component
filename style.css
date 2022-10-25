@@ -13,13 +13,16 @@
 
 body {
 background-color: var(--lgray);
-
+position: relative;
+min-height: 100vh;
+display: flex;
+justify-content: left;
 }
 
 .card {
     width: 340px;
     padding: 20px;
-    margin: 10vh auto;
+    margin: auto;
     text-align: center;
     border-radius: 20px;
     background-color: white;
@@ -43,4 +46,11 @@ max-width: 25ch;
 text-align: center;
 margin: auto;
 color: var(--lblue);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 1%;
+    right: 0;
+    left: 0;
 }
