@@ -1,0 +1,46 @@
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;}
+
+    :root {
+        --lgray: hsl(212, 45%, 89%);
+        --lblue: hsl(220, 15%, 55%);
+        --dblue: hsl(218, 44%, 22%);
+    }
+
+
+body {
+background-color: var(--lgray);
+
+}
+
+.card {
+    width: 340px;
+    padding: 20px;
+    margin: 10vh auto;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+}
+
+img {
+width: 100%;
+border-radius: 10px;
+}
+
+h1 {
+    margin: 1vh auto;
+    max-width: 18ch;
+    font-size: 1.5em;
+margin: 15px auto;
+color: var(--dblue);
+}
+
+p {
+max-width: 25ch;
+text-align: center;
+margin: auto;
+color: var(--lblue);
+}
