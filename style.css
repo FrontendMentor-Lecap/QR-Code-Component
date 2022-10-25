@@ -45,6 +45,7 @@ p {
 max-width: 25ch;
 text-align: center;
 margin: auto;
+margin-bottom: 2rem;
 color: var(--lblue);
 }
 
